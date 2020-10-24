@@ -1,0 +1,11 @@
+framework module RecipeUtilFramework {
+  umbrella header "RecipeUtilFramework.h"
+
+  export *
+  module * { export * }
+}
+
+module RecipeUtilFramework.Swift {
+    header "RecipeUtilFramework-Swift.h"
+    requires objc
+}
